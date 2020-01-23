@@ -2,5 +2,68 @@ body{
     background: #000;
     font-family: Helvetica,Arial,sans-serif;
     font-size: 22px;
-    color: seashell;
+    color: rgb(255, 245, 238);
+    opacity: 0.9;
+    text-align: center;
 }
+header {
+    position: fixed;
+    background-color: #000;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    margin: 0 10px;
+    padding: 0;
+}
+header #logo{
+    position: 0 0;
+    height: 50px;
+}
+header a{
+    display: inline-block;
+    text-decoration-color: seashell;
+    /*href auto coloration not going awawy, fix that */
+    /*throw em over on the right when the aphasia stops */
+}
+.hero {
+    background-image: /*more aphasia. yay.*/;
+    height: 700px;
+    width: 1200px;
+}
+#herotext {
+    background-color: #000;
+    z-index: 1;
+/*you did this before - look it up again, I guess */
+}
+.teamonthall {
+    max-width: 1000px;
+}
+.teamonthlinks {
+    display: flex;
+    justify-content: space-between;
+    overflow: /*fix that*/;
+}
+.teamonthlinks img{
+    width: 300px;
+    height: 200px;
+}
+.teamonthlinks figcaption {
+    margin-top: 10px;
+}
+.locs {
+    background-image: /*ditto ditto*/;
+    height: 500px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.locs div {
+    opacity: 1.0;
+    width: 300px;
+    background-color: #000;
+    line-height: 2;
+}
+#copyright {
+    text-align: left;
+}
+/*ugh alignment is not working at all, what did i do?*/
