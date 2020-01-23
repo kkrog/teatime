@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background: #000;
     font-family: Helvetica,Arial,sans-serif;
@@ -12,27 +16,34 @@ header {
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
-    margin: 0 10px;
-    padding: 0;
 }
-header #logo{
-    position: 0 0;
+header #logo {
+    float: left;
     height: 50px;
+    margin-left: 5px;
 }
 header a{
-    display: inline-block;
-    text-decoration-color: seashell;
-    /*href auto coloration not going awawy, fix that */
-    /*throw em over on the right when the aphasia stops */
+    color: seashell;
+}
+header nav{
+    display: block;
+    float: right;
+    margin-right: 10px;
 }
 .hero {
-    background-image: /*more aphasia. yay.*/;
+    background-image: url(./img/img-mission-background.jpg);
+    background-size: cover;
     height: 700px;
-    width: 1200px;
+    width: 100%;
+    display: block;
+    position: relative;
 }
 #herotext {
     background-color: #000;
-    z-index: 1;
+    z-index: 2;
+    margin: auto 0;
+    width: 100%;
+    float: right;
 /*you did this before - look it up again, I guess */
 }
 .teamonthall {
@@ -51,7 +62,7 @@ header a{
     margin-top: 10px;
 }
 .locs {
-    background-image: /*ditto ditto*/;
+    background-image: url(./img/img-locations-background.jpg);
     height: 500px;
     width: 100px;
     display: flex;
