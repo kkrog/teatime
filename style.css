@@ -17,6 +17,7 @@ header {
     width: 100%;
     border-bottom: 1px solid seashell;
     padding-top: .75em;
+    z-index: 1;
 }
 header #logo {
     float: left;
@@ -33,19 +34,18 @@ header nav{
     line-height: 2;
 }
 .hero {
-    position: static;
-    top: 50px;
+    position: relative;
+    top: 70px;
 }
 .hero img{
-    object-fit: cover;
-    height: 700px;
+    width: 100%
 }
-#herotext {
+.herotext {
     background-color: #000;
-    z-index: 1;
-    margin: auto 0;
     width: 100%;
-    float: right;
+    position: absolute;
+    top: 35%;
+    line-height: 2;
 /*you did this before - look it up again, I guess */
 }
 .teamonthall {
