@@ -38,7 +38,7 @@ header nav{
     top: 70px;
 }
 .hero img{
-    width: 100%
+    width: 90%
 }
 .herotext {
     background-color: #000;
@@ -46,22 +46,33 @@ header nav{
     position: absolute;
     top: 35%;
     line-height: 2;
-/*you did this before - look it up again, I guess */
 }
-.teamonthall {
-    max-width: 1000px;
+.spacer {
+    height: 7.5rem;
 }
-.teamonthlinks {
+.tomall {
+    width: 100%;
+}
+.tomtitles {
+    text-align: center;
+    background-color: #000;
+    line-height: 2;
+    padding: 1rem;
+}
+.tomlinks {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    overflow: /*fix that*/;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.teamonthlinks img{
+.tomlinks img{
     width: 300px;
     height: 200px;
+    padding: 10px;
 }
-.teamonthlinks figcaption {
-    margin-top: 10px;
+.tomlinks figcaption {
+    padding-bottom:10px;
 }
 .locs {
     background-image: url(./img/img-locations-background.jpg);
