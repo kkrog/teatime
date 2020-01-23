@@ -16,11 +16,12 @@ header {
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
+    padding-top: .75em;
 }
 header #logo {
     float: left;
     height: 50px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 header a{
     color: seashell;
@@ -28,19 +29,20 @@ header a{
 header nav{
     display: block;
     float: right;
-    margin-right: 10px;
+    margin-right: 5px;
+    line-height: 2;
 }
 .hero {
-    background-image: url(./img/img-mission-background.jpg);
-    background-size: cover;
+    position: static;
+    top: 50px;
+}
+.hero img{
+    object-fit: cover;
     height: 700px;
-    width: 100%;
-    display: block;
-    position: relative;
 }
 #herotext {
     background-color: #000;
-    z-index: 2;
+    z-index: 1;
     margin: auto 0;
     width: 100%;
     float: right;
