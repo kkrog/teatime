@@ -26,11 +26,11 @@ header #logo {
 }
 header a{
     color: seashell;
+    padding: 0 10px;
 }
 header nav{
     display: block;
     float: right;
-    margin-right: 5px;
     line-height: 2;
 }
 .hero {
@@ -76,18 +76,33 @@ header nav{
 }
 .locs {
     background-image: url(./img/img-locations-background.jpg);
-    height: 500px;
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    overflow:hidden;
+    text-align:center;
+    height:500px;
+}
+/*bgpic zoom is wrong*/
+.locs h2 {
+    margin: 45px 0 15px 0;
 }
 .locs div {
     opacity: 1.0;
     width: 300px;
     background-color: #000;
-    line-height: 2;
+    line-height: 2.5;
+    display: inline-block;
+    margin:0 20px;
+}
+footer{
+    height:200px;
+    line-height:3;
 }
 #copyright {
-    text-align: left;
+    float:left;
+    margin-left:20px;
+    font-size:18px;
+    font-weight:bold;
+    padding:20px 0;
 }
-/*ugh alignment is not working at all, what did i do?*/
