@@ -74,7 +74,7 @@ header nav{
 .tomlinks figcaption {
     padding-bottom:10px;
 }
-.locs {
+#locales {
     background-image: url(./img/img-locations-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -83,16 +83,22 @@ header nav{
     text-align:center;
     height:500px;
 }
+.locs{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
 /*bgpic zoom is wrong*/
-.locs h2 {
+#locales h2 {
     margin: 45px 0 15px 0;
+    align-self: auto;
+    justify-self: center;
 }
 .locs div {
     opacity: 1.0;
     width: 300px;
     background-color: #000;
     line-height: 2.5;
-    display: inline-block;
     margin:0 20px;
 }
 footer{
