@@ -78,21 +78,21 @@ header nav{
     background-image: url(./img/img-locations-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90%;
-    overflow:hidden;
+    background-size: cover;
     text-align:center;
-    height:500px;
+    min-height:500px;
+    width: 90%
 }
 .locs{
     display:flex;
     align-items: center;
     justify-content: space-around;
+    flex-flow: row wrap;
 }
 /*bgpic zoom is wrong*/
 #locales h2 {
-    margin: 45px 0 15px 0;
-    align-self: auto;
-    justify-self: center;
+    margin: 15px auto;
+    padding: 45px 0 0 0;
 }
 .locs div {
     opacity: 1.0;
